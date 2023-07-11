@@ -1,0 +1,63 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: yellowgreen;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+}
+.content-add-Item{
+    display: flex;
+    align-items: center;
+    gap: 1rem
+    flex-wrap: wrap
+}
+#input,
+#btn{
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: ;
+}
+#input{
+    width: 20rem;
+    border-radius: 1rem;
+}
+
+#bnt{
+    background-color: silver;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: azure;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+}
+#to-do-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+}
+#to-do-list li{
+    display: flex;
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    justify-content: space-between;
+
+
+}
