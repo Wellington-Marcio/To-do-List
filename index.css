@@ -16,15 +16,15 @@ body{
 .content-add-Item{
     display: flex;
     align-items: center;
-    gap: 1rem
-    flex-wrap: wrap
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 #input,
 #btn{
     border: none;
     font-size: 1rem;
     outline: none;
-    padding: ;
+    padding: 0;
 }
 #input{
     width: 20rem;
